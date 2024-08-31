@@ -1,0 +1,37 @@
+.hireButtonShape {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 1px;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkorange-100);
+}
+.btn,
+.hireMe {
+  position: relative;
+}
+.hireMe {
+  font-size: var(--nav-bar-text-21-size);
+  letter-spacing: 0.03em;
+  font-family: var(--nav-bar-text-21);
+  color: var(--color-white);
+  text-align: justify;
+  display: inline-block;
+  min-width: 83px;
+  z-index: 1;
+}
+.btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-34xl) var(--padding-9xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}

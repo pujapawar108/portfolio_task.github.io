@@ -1,0 +1,100 @@
+.letsDesignTogether {
+  margin: 0;
+  height: 98px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.callToActionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-3xl) 0 var(--padding-xl);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  height: 101px;
+  position: relative;
+  font-size: var(--nav-bar-text-21-size);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.callToActionTitleParent,
+.footerRight,
+.testimonialsTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.callToActionTitleParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+.footerRight,
+.testimonialsTitle {
+  max-width: 100%;
+}
+.footerRight {
+  width: 932px;
+  align-items: flex-start;
+  gap: var(--gap-29xl);
+  cursor: pointer;
+}
+.testimonialsTitle {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 var(--padding-434xl) var(--padding-533xl);
+  box-sizing: border-box;
+  gap: var(--gap-120xl);
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--h2-65-size);
+  color: var(--color-white);
+  font-family: var(--nav-bar-text-21);
+}
+@media screen and (max-width: 1425px) {
+  .testimonialsTitle {
+    gap: var(--gap-50xl);
+    padding-left: var(--padding-207xl);
+    padding-right: var(--padding-207xl);
+    padding-bottom: var(--padding-340xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .letsDesignTogether {
+    font-size: var(--font-size-33xl);
+  }
+  .footerRight {
+    gap: var(--gap-5xl);
+  }
+  .testimonialsTitle {
+    gap: var(--gap-16xl);
+    padding-left: var(--padding-94xl);
+    padding-right: var(--padding-94xl);
+    padding-bottom: var(--padding-214xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .letsDesignTogether {
+    font-size: var(--font-size-20xl);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-mid);
+  }
+  .testimonialsTitle {
+    gap: var(--gap-mid);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-132xl);
+    box-sizing: border-box;
+  }
+}

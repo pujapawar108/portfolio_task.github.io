@@ -1,0 +1,16 @@
+.servicesContentWrapper {
+  width: 1433px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs) var(--padding-50xl-5);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+@media screen and (max-width: 950px) {
+  .servicesContentWrapper {
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}

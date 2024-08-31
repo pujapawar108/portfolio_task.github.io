@@ -1,0 +1,9 @@
+.root {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  height: 88px;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}

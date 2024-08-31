@@ -1,0 +1,79 @@
+.shadowIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imacProFrontViewMockupLab,
+.mainIcon {
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.mainIcon {
+  height: 773.7px;
+  width: 961.7px;
+  display: none;
+}
+.imacProFrontViewMockupLab {
+  height: 496.8px;
+  flex: 1;
+  overflow: hidden;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.imacProFrontViewMockup,
+.mainParent,
+.unlimimted {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.mainParent {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+  padding: 31.9px var(--padding-14xl) var(--padding-13xl);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 1;
+}
+.imacProFrontViewMockup,
+.unlimimted {
+  position: relative;
+}
+.imacProFrontViewMockup {
+  height: 798px;
+  width: 961.7px;
+  justify-content: flex-start;
+  padding: 0.8px 0 23.5px;
+  max-width: 100%;
+}
+.unlimimted {
+  width: 100%;
+  height: 960px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  justify-content: center;
+  padding: 123px var(--padding-xl) var(--padding-20xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 561px) {
+  .mainParent {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

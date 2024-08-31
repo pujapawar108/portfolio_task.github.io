@@ -1,0 +1,34 @@
+.subtractIcon {
+  height: 67px;
+  width: 67px;
+  position: relative;
+}
+.mumair {
+  text-decoration: none;
+  align-self: stretch;
+  height: 59px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  white-space: nowrap;
+}
+.mumairWrapper,
+.subtractParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mumairWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.subtractParent {
+  width: 277px;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--bg-gray);
+  font-family: var(--font-montserrat);
+}

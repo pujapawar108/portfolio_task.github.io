@@ -1,0 +1,156 @@
+.uiux {
+  position: relative;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  min-width: 69px;
+}
+.frameChild,
+.uiuxWrapper {
+  border-radius: var(--br-xs);
+  display: none;
+}
+.uiuxWrapper {
+  background-color: var(--color-whitesmoke-100);
+  border: 0.4px solid var(--color-dimgray);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-lgi);
+}
+.frameChild {
+  align-self: stretch;
+  width: 445px;
+  position: relative;
+  background-color: var(--color-antiquewhite);
+  max-width: 100%;
+}
+.webDesignsIcon,
+.webDesignsIcon1 {
+  position: absolute;
+  width: 274px;
+  object-fit: cover;
+}
+.webDesignsIcon {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 105px;
+  max-height: 100%;
+  z-index: 1;
+}
+.webDesignsIcon1 {
+  top: 84px;
+  left: 0;
+  height: 405px;
+  z-index: 2;
+}
+.webDesignsParent {
+  height: 489px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frameItem,
+.rectangleParent {
+  border-radius: var(--br-xs);
+  max-width: 100%;
+}
+.frameItem {
+  height: 533px;
+  width: 445px;
+  position: relative;
+  background: linear-gradient(
+    179.83deg,
+    rgba(255, 235, 219, 0),
+    #ffebdb,
+    #545454
+  );
+  display: none;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-antiquewhite);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl) 0 var(--padding-20xl);
+  box-sizing: border-box;
+}
+.aircallingLandingPage,
+.webDesign {
+  position: relative;
+  letter-spacing: 0.03em;
+}
+.webDesign {
+  display: inline-block;
+  min-width: 119px;
+}
+.aircallingLandingPage {
+  font-size: var(--sub-heading-24-size);
+  color: var(--color-white);
+}
+.frameGroup,
+.webDesignName {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.webDesignName {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  gap: var(--gap-18xl);
+  min-width: 334px;
+}
+.frameGroup,
+.frameParent,
+.projectExamples {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.projectExamples {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-25xl);
+  text-align: left;
+  font-size: var(--sub-p-19-size);
+  color: var(--color-darkorange-100);
+}
+.frameParent {
+  width: 1423px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-87xl);
+  text-align: center;
+  font-size: var(--sub-heading-24-size);
+  color: var(--color-black);
+  font-family: var(--nav-bar-text-21);
+}
+@media screen and (max-width: 950px) {
+  .projectExamples {
+    gap: var(--gap-3xl);
+  }
+  .frameParent {
+    gap: var(--gap-34xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .aircallingLandingPage,
+  .uiux {
+    font-size: var(--sub-p-19-size);
+  }
+  .frameGroup {
+    gap: var(--gap-lg);
+  }
+  .frameParent {
+    gap: var(--gap-7xl);
+  }
+}

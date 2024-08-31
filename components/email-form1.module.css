@@ -1,0 +1,100 @@
+.labelsChild {
+  height: 75px;
+  width: 627px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enterYourEmail {
+  width: 178px;
+  border: 0;
+  outline: 0;
+  font-family: var(--nav-bar-text-21);
+  font-size: var(--nav-bar-text-21-size);
+  background-color: transparent;
+  height: 32px;
+  position: relative;
+  letter-spacing: 0.03em;
+  color: var(--color-gray-400);
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.formLabelsChild,
+.labels {
+  border-radius: var(--br-sm);
+}
+.labels {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-7xl) var(--padding-lgi);
+  min-width: 178px;
+  max-width: 100%;
+}
+.formLabelsChild {
+  height: 75px;
+  width: 222px;
+  position: relative;
+  background-color: var(--color-darkorange-100);
+  display: none;
+}
+.contactMe {
+  position: relative;
+  font-size: var(--sub-heading-24-size);
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-family: var(--nav-bar-text-21);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.emailForm,
+.formFields,
+.formLabels {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formLabels {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-17xl) var(--padding-lgi);
+  background-color: var(--color-darkorange-100);
+  border-radius: var(--br-sm);
+  white-space: nowrap;
+}
+.formLabels:hover {
+  background-color: var(--color-orangered-100);
+}
+.emailForm,
+.formFields {
+  max-width: 100%;
+}
+.formFields {
+  flex: 1;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.emailForm {
+  align-self: stretch;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 450px) {
+  .enterYourEmail {
+    font-size: var(--font-size-mid);
+  }
+}

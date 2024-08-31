@@ -1,0 +1,497 @@
+.hiIAm {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 89px;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.muhammadUmair {
+  margin: 0;
+  height: 41px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-darkorange-100);
+  display: inline-block;
+}
+.contactParent,
+.role {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactParent {
+  flex-direction: column;
+  gap: var(--gap-5xs-9);
+}
+.role {
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.uiUx {
+  margin: 0;
+  width: 386px;
+  height: -27px;
+  position: relative;
+  font-size: var(--main-heading-h1-size);
+  letter-spacing: 0.03em;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.greetings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-46xl-1);
+  max-width: 100%;
+}
+.designer {
+  margin: 0;
+  width: 484px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.03em;
+  line-height: 7.6px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.role1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--nav-bar-text-21-size);
+  letter-spacing: 0.03em;
+  text-align: justify;
+}
+.intro,
+.review {
+  flex-direction: column;
+}
+.review {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-56xl-5);
+  max-width: 100%;
+}
+.intro {
+  flex: 1;
+  gap: var(--gap-11xl);
+}
+.intro,
+.introduction,
+.servicesHeading1,
+.socialLinks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.socialLinks {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  font-size: var(--main-heading-h1-size);
+}
+.introduction,
+.servicesHeading1 {
+  flex-direction: column;
+}
+.introduction {
+  align-self: stretch;
+  gap: var(--gap-94xl-8);
+}
+.servicesHeading1 {
+  flex: 1;
+  padding: 0 0 var(--padding-75xl);
+  box-sizing: border-box;
+  min-width: 464px;
+  min-height: 590px;
+}
+.imagePlaceholderChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.background {
+  position: absolute;
+  top: 78px;
+  left: 82px;
+  background-color: var(--color-darkorange-200);
+  width: 374px;
+  height: 83px;
+  z-index: 1;
+}
+.imagePlaceholder {
+  align-self: stretch;
+  height: 617.2px;
+  position: relative;
+}
+.facebookNegative {
+  height: 32.5px;
+  width: 32.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 33px;
+}
+.socialLinksItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.aboutInner,
+.heroRight {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.aboutInner {
+  width: 517px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.heroRight {
+  width: 538px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-17xl-8);
+  min-width: 538px;
+}
+.heroInfo,
+.servicesHeading {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.heroInfo {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-129xl);
+}
+.servicesHeading {
+  width: 1440px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.aboutImageShape {
+  position: absolute;
+  top: 111px;
+  left: 153px;
+  background-color: var(--color-darkorange-200);
+  width: 374px;
+  height: 83px;
+  z-index: 1;
+}
+.footerTop {
+  height: 675px;
+  width: 681px;
+  position: relative;
+  min-width: 681px;
+  max-width: 100%;
+}
+.aboutMe,
+.loremIpsumDolor1 {
+  position: relative;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  max-width: 100%;
+}
+.aboutMe {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.loremIpsumDolor1 {
+  flex: 1;
+}
+.aboutDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--nav-bar-text-21-size);
+}
+.ux {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 35px;
+}
+.skillProgressBars,
+.skillProgressPoint {
+  position: absolute;
+  background-color: var(--color-whitesmoke-200);
+}
+.skillProgressBars {
+  top: 10px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  width: 753px;
+  height: 12px;
+}
+.skillProgressPoint {
+  top: 0;
+  left: 669px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  border: 0 solid var(--color-darkorange-100);
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  z-index: 2;
+}
+.uXIcons {
+  height: 32px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.skillList,
+.uXIconsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.skillList {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.graphicDesign {
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.frameItem {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkorange-100);
+  width: 687px;
+  height: 12px;
+  z-index: 1;
+}
+.skillList1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.footerDetails {
+  align-self: stretch;
+  gap: var(--gap-mini);
+  font-size: var(--sub-heading-24-size);
+}
+.aboutDetails,
+.aboutDetailsWrapper,
+.footerDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aboutDetails {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.aboutDetailsWrapper {
+  flex: 1;
+  padding: 0 0 var(--padding-23xl);
+  box-sizing: border-box;
+  min-width: 491px;
+  min-height: 620px;
+}
+.footerTopParent,
+.servicesContent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footerTopParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-14xl);
+  font-size: var(--h2-65-size);
+}
+.servicesContent {
+  width: 1470px;
+  flex-direction: column;
+  gap: var(--gap-50xl-5);
+}
+.servicesContentWrapper {
+  width: 1870px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-48xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--sub-heading-24-size);
+  color: var(--color-black);
+  font-family: var(--nav-bar-text-21);
+}
+@media screen and (max-width: 1350px) {
+  .heroRight {
+    flex: 1;
+  }
+  .heroInfo {
+    gap: var(--gap-55xl);
+    flex-wrap: wrap;
+  }
+  .footerTop {
+    flex: 1;
+  }
+  .footerTopParent {
+    flex-wrap: wrap;
+  }
+  .servicesContentWrapper {
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .muhammadUmair {
+    font-size: var(--font-size-7xl);
+  }
+  .designer,
+  .uiUx {
+    font-size: var(--font-size-31xl);
+    line-height: 72px;
+  }
+  .review {
+    gap: var(--gap-19xl);
+  }
+  .introduction {
+    gap: var(--gap-38xl);
+  }
+  .servicesHeading1 {
+    padding-bottom: var(--padding-42xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .heroRight {
+    gap: var(--gap-lg);
+    min-width: 100%;
+  }
+  .heroInfo {
+    gap: var(--gap-18xl);
+  }
+  .footerTop {
+    min-width: 100%;
+  }
+  .aboutMe {
+    font-size: var(--font-size-33xl);
+  }
+  .aboutDetailsWrapper {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .footerTopParent {
+    gap: var(--gap-base);
+  }
+  .servicesContent {
+    gap: var(--gap-16xl);
+  }
+  .servicesContentWrapper {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hiIAm,
+  .muhammadUmair {
+    font-size: var(--sub-p-19-size);
+  }
+  .uiUx {
+    font-size: var(--font-size-11xl);
+    line-height: 48px;
+  }
+  .greetings {
+    gap: var(--gap-14xl);
+  }
+  .designer {
+    font-size: var(--font-size-11xl);
+    line-height: 48px;
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-mid);
+  }
+  .review {
+    gap: var(--gap-lgi);
+  }
+  .introduction {
+    gap: var(--gap-9xl);
+  }
+  .heroInfo {
+    gap: var(--gap-lg);
+  }
+  .aboutMe {
+    font-size: var(--font-size-20xl);
+  }
+  .loremIpsumDolor1 {
+    font-size: var(--font-size-mid);
+  }
+  .graphicDesign,
+  .ux {
+    font-size: var(--sub-p-19-size);
+  }
+  .servicesContent {
+    gap: var(--gap-mid);
+  }
+}
